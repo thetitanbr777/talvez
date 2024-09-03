@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com um duende dourado que fala arrastado e pergunta se quer jogar dados",
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "Eu não gosto de jogar dados!",
-                afirmacao: "Ficou com medo do que o duende poderia fazer. "
+                texto: "Isso é assustador!",
+                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Vamos jogar!",
-                afirmacao: "Quis saber qual seria a recompensa do duende."
+                texto: "Isso é maravilhoso!",
+                afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
