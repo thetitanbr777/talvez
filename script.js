@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: " você conhece o hino nacional de verdade?, clique na opção correta.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Ouviram do Ipiranga as margens plácidas, De um povo heróico o brado retumbante, E o sol da liberdade, em raios fúlgidos, Brilhou no céu da pátria nesse instante.",
+                afirmacao: "Ouviram do Ipiranga as margens plácidas, De um povo heróico o brado retumbante, E o sol da liberdade, em raios fúlgidos,Brilhou no céu da pátria nesse instante."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Ouviram do Ipiranga as margens plácidas, De um povo heróico e brado retumbante, E o sol da liberdade, em raios fúlgidos, Brilhou no céu da pátria nesse instante.",
+                afirmacao: " Erro ao trocar 'o' por 'e' no trecho 'o brado retumbante' "
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Se o penhor dessa igualdade, Conseguimos conquistar com braço forte, Em teu seio, ó liberdade, Desafia o nosso peito a própria morte!",
+                afirmacao: "Se o penhor dessa igualdade, Conseguimos conquistar com braço forte, Em teu seio, ó liberdade, Desafia o nosso peito a própria morte!"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Se o penhor dessa igualdade, Conseguimos conquistar com braços fortes, Em teu seio, ó liberdade, Desafia o nosso peito a própria morte!",
+                afirmacao: "Erro ao colocar 'braço forte' no plural"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Ó Pátria amada, Idolatrada, Salve Salve!",
+                afirmacao: "ambos os 'salve' tem ponto de exclamação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Ó Pátria amada, Idolatrada, Salve! Salve!",
+                afirmacao: "Ó Pátria amada, Idolatrada, Salve! Salve!."
             }
         ]
     },
